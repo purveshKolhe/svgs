@@ -1,0 +1,123 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Shadow Filter -->
+    <filter id="soft-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+      <feOffset in="blur" dx="3" dy="3" result="offsetBlur"/>
+      <feComponentTransfer in="offsetBlur" result="shadow">
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+
+  <!-- World Map Background -->
+  <g opacity="0.1" transform="translate(100, 0)">
+    <path fill="#E0E0E0" d="M981.1,454.4c-2,0-3.9,0.2-5.8,0.5l-2.3-0.2c-1.2,0-2.3,0.7-2.8,1.8l-3,6.5c-0.5,1-0.2,2.2,0.7,2.8l3.2,2.3 c-0.2,0.5-0.3,1-0.3,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.2,0-0.3,0-0.5l1.5-1.2c1-0.8,1.2-2,0.5-3l-3.3-4.3 C982.3,454.5,981.7,454.4,981.1,454.4z M426.9,456.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C429.2,457.2,428,456.8,426.9,456.9z M398.9,458.6c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C401.2,458.9,400,458.5,398.9,458.6z M334.8,413.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C337.1,414.2,335.9,413.8,334.8,413.9z M294.8,400.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C297.1,401.2,295.9,400.8,294.8,400.9z M264.8,373.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C267.1,374.2,265.9,373.8,264.8,373.9z M234.8,343.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C237.1,344.2,235.9,343.8,234.8,343.9z M204.8,313.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C207.1,314.2,205.9,313.8,204.8,313.9z M174.8,283.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C177.1,284.2,175.9,283.8,174.8,283.9z M144.8,253.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C147.1,254.2,145.9,253.8,144.8,253.9z M114.8,223.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C117.1,224.2,115.9,223.8,114.8,223.9z M84.8,193.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C87.1,194.2,85.9,193.8,84.8,193.9z M54.8,163.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C57.1,164.2,55.9,163.8,54.8,163.9z M24.8,133.9c-1.2-0.2-2.3,0.3-2.8,1.3l-3.8,7.3c-0.5,1-0.2,2.2,0.7,2.8l2.7,1.7 c-0.1,0.5-0.2,1-0.2,1.5c0,2.5,2,4.5,4.5,4.5s4.5-2,4.5-4.5c0-0.5-0.1-1-0.2-1.5l2.7-1.7c1-0.5,1.3-1.8,0.7-2.8l-3.8-7.3 C27.1,134.2,25.9,133.8,24.8,133.9z"/>
+  </g>
+
+  <!-- Main Box -->
+  <g transform="translate(520, 80)" filter="url(#soft-shadow)">
+    <rect width="160" height="160" rx="20" fill="white"/>
+    <image xlink:href="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/lightbulb-on-outline.svg" x="60" y="30" width="40" height="40" opacity="0.5"/>
+    <text x="80" y="100" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#757575">INFOGRAPHICS</text>
+    <line x1="40" y1="110" x2="120" y2="110" stroke="#E0E0E0" stroke-width="1"/>
+    <text x="80" y="128" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" text-anchor="middle" fill="#BDBDBD">ELEMENTS</text>
+  </g>
+
+  <!-- Element 1: Target (Yellow) -->
+  <g>
+    <path d="M 540 240 C 540 320, 240 320, 170 400" stroke="#FFCA28" stroke-width="2" fill="none"/>
+    <circle cx="170" cy="400" r="5" fill="#FFCA28"/>
+    <g transform="translate(100, 420)" filter="url(#soft-shadow)">
+      <path d="M0 15C0 6.7 6.7 0 15 0H125C133.3 0 140 6.7 140 15V125C140 133.3 133.3 140 125 140H15C6.7 140 0 133.3 0 125V80H10V125C10 127.8 12.2 130 15 130H125C127.8 130 130 127.8 130 125V15C130 12.2 127.8 10 125 10H15C12.2 10 10 12.2 10 15V60H0V15Z" fill="#FFCA28"/>
+      <rect x="10" y="10" width="120" height="120" rx="10" fill="white"/>
+      <image xlink:href="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/target.svg" x="50" y="50" width="40" height="40" style="color:#FFCA28"/>
+    </g>
+    <text x="100" y="585" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFCA28">LOREM IPSUM</text>
+    <text x="100" y="605" font-family="Arial, sans-serif" font-size="12" fill="#BDBDBD">
+      <tspan x="100" dy="0">Lorem ipsum dolor sit</tspan>
+      <tspan x="100" dy="1.2em">amet, consectetuer adip-</tspan>
+      <tspan x="100" dy="1.2em">iscing elit, sed diam</tspan>
+      <tspan x="100" dy="1.2em">nonummy nibh euismod</tspan>
+    </text>
+  </g>
+
+  <!-- Element 2: RSS (Orange) -->
+  <g>
+    <path d="M 570 240 C 570 340, 440 340, 370 460" stroke="#FF7043" stroke-width="2" fill="none"/>
+    <circle cx="370" cy="460" r="5" fill="#FF7043"/>
+    <g transform="translate(300, 480)" filter="url(#soft-shadow)">
+      <path d="M0 15C0 6.7 6.7 0 15 0H125C133.3 0 140 6.7 140 15V125C140 133.3 133.3 140 125 140H15C6.7 140 0 133.3 0 125V80H10V125C10 127.8 12.2 130 15 130H125C127.8 130 130 127.8 130 125V15C130 12.2 127.8 10 125 10H15C12.2 10 10 12.2 10 15V60H0V15Z" fill="#FF7043"/>
+      <rect x="10" y="10" width="120" height="120" rx="10" fill="white"/>
+      <image xlink:href="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/rss.svg" x="50" y="50" width="40" height="40" style="color:#FF7043"/>
+    </g>
+    <text x="300" y="645" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF7043">LOREM IPSUM</text>
+    <text x="300" y="665" font-family="Arial, sans-serif" font-size="12" fill="#BDBDBD">
+      <tspan x="300" dy="0">Lorem ipsum dolor sit</tspan>
+      <tspan x="300" dy="1.2em">amet, consectetuer adip-</tspan>
+      <tspan x="300" dy="1.2em">iscing elit, sed diam</tspan>
+      <tspan x="300" dy="1.2em">nonummy nibh euismod</tspan>
+    </text>
+  </g>
+
+  <!-- Element 3: Cart (Pink) -->
+  <g>
+    <path d="M 600 240 V 400" stroke="#E91E63" stroke-width="2" fill="none"/>
+    <circle cx="600" cy="400" r="5" fill="#E91E63"/>
+    <g transform="translate(530, 420)" filter="url(#soft-shadow)">
+      <path d="M0 15C0 6.7 6.7 0 15 0H125C133.3 0 140 6.7 140 15V125C140 133.3 133.3 140 125 140H15C6.7 140 0 133.3 0 125V80H10V125C10 127.8 12.2 130 15 130H125C127.8 130 130 127.8 130 125V15C130 12.2 127.8 10 125 10H15C12.2 10 10 12.2 10 15V60H0V15Z" fill="#E91E63"/>
+      <rect x="10" y="10" width="120" height="120" rx="10" fill="white"/>
+      <image xlink:href="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/cart-outline.svg" x="50" y="50" width="40" height="40" style="color:#E91E63"/>
+    </g>
+    <text x="530" y="585" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#E91E63">LOREM IPSUM</text>
+    <text x="530" y="605" font-family="Arial, sans-serif" font-size="12" fill="#BDBDBD">
+      <tspan x="530" dy="0">Lorem ipsum dolor sit</tspan>
+      <tspan x="530" dy="1.2em">amet, consectetuer adip-</tspan>
+      <tspan x="530" dy="1.2em">iscing elit, sed diam</tspan>
+      <tspan x="530" dy="1.2em">nonummy nibh euismod</tspan>
+    </text>
+  </g>
+
+  <!-- Element 4: Account (Purple) -->
+  <g>
+    <path d="M 630 240 C 630 340, 700 340, 770 460" stroke="#9C27B0" stroke-width="2" fill="none"/>
+    <circle cx="770" cy="460" r="5" fill="#9C27B0"/>
+    <g transform="translate(700, 480)" filter="url(#soft-shadow)">
+      <path d="M0 15C0 6.7 6.7 0 15 0H125C133.3 0 140 6.7 140 15V125C140 133.3 133.3 140 125 140H15C6.7 140 0 133.3 0 125V80H10V125C10 127.8 12.2 130 15 130H125C127.8 130 130 127.8 130 125V15C130 12.2 127.8 10 125 10H15C12.2 10 10 12.2 10 15V60H0V15Z" fill="#9C27B0"/>
+      <rect x="10" y="10" width="120" height="120" rx="10" fill="white"/>
+      <image xlink:href="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/account-outline.svg" x="50" y="50" width="40" height="40" style="color:#9C27B0"/>
+    </g>
+    <text x="700" y="645" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9C27B0">LOREM IPSUM</text>
+    <text x="700" y="665" font-family="Arial, sans-serif" font-size="12" fill="#BDBDBD">
+      <tspan x="700" dy="0">Lorem ipsum dolor sit</tspan>
+      <tspan x="700" dy="1.2em">amet, consectetuer adip-</tspan>
+      <tspan x="700" dy="1.2em">iscing elit, sed diam</tspan>
+      <tspan x="700" dy="1.2em">nonummy nibh euismod</tspan>
+    </text>
+  </g>
+
+  <!-- Element 5: Home (Blue) -->
+  <g>
+    <path d="M 660 240 C 660 320, 900 320, 970 400" stroke="#2196F3" stroke-width="2" fill="none"/>
+    <circle cx="970" cy="400" r="5" fill="#2196F3"/>
+    <g transform="translate(900, 420)" filter="url(#soft-shadow)">
+      <path d="M0 15C0 6.7 6.7 0 15 0H125C133.3 0 140 6.7 140 15V125C140 133.3 133.3 140 125 140H15C6.7 140 0 133.3 0 125V80H10V125C10 127.8 12.2 130 15 130H125C127.8 130 130 127.8 130 125V15C130 12.2 127.8 10 125 10H15C12.2 10 10 12.2 10 15V60H0V15Z" fill="#2196F3"/>
+      <rect x="10" y="10" width="120" height="120" rx="10" fill="white"/>
+      <image xlink:href="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/home-outline.svg" x="50" y="50" width="40" height="40" style="color:#2196F3"/>
+    </g>
+    <text x="900" y="585" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2196F3">LOREM IPSUM</text>
+    <text x="900" y="605" font-family="Arial, sans-serif" font-size="12" fill="#BDBDBD">
+      <tspan x="900" dy="0">Lorem ipsum dolor sit</tspan>
+      <tspan x="900" dy="1.2em">amet, consectetuer adip-</tspan>
+      <tspan x="900" dy="1.2em">iscing elit, sed diam</tspan>
+      <tspan x="900" dy="1.2em">nonummy nibh euismod</tspan>
+    </text>
+  </g>
+</svg>
