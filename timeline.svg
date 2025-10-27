@@ -1,0 +1,69 @@
+<svg width="1400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white" />
+
+  <!-- Title -->
+  <text x="50%" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">AI</text>
+  <text x="50%" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">A brief history of Artificial Intelligence</text>
+
+  <!-- Timeline Line -->
+  <line x1="100" y1="200" x2="1300" y2="200" stroke="#B0E0E6" stroke-width="3" />
+
+  <!-- Timeline Points -->
+
+  <!-- 1950: Turing Test -->
+  <circle cx="150" cy="200" r="30" fill="#A7D2CB" />
+  <text x="150" y="208" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">?</text>
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">1950</text>
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <tspan x="150" dy="1.2em">Alan Turing proposes</tspan>
+    <tspan x="150" dy="1.2em">the Turing Test</tspan>
+  </text>
+
+  <!-- 1956: Birth of AI -->
+  <circle cx="370" cy="200" r="30" fill="#8AB6D6" />
+  <text x="370" y="208" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="white" text-anchor="middle">☻</text>
+  <text x="370" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">1956</text>
+  <text x="370" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <tspan x="370" dy="1.2em">"Artificial Intelligence"</tspan>
+    <tspan x="370" dy="1.2em">term is coined</tspan>
+  </text>
+
+  <!-- 1966: ELIZA -->
+  <circle cx="590" cy="200" r="30" fill="#6A8EAE" />
+  <path d="M578 193 h24 v14 h-24 z M582 197 h16 M582 203 h16" stroke="white" stroke-width="2" fill="none" />
+  <text x="590" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">1966</text>
+  <text x="590" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <tspan x="590" dy="1.2em">First chatbot,</tspan>
+    <tspan x="590" dy="1.2em">ELIZA, is created</tspan>
+  </text>
+
+  <!-- 1997: Deep Blue -->
+  <circle cx="810" cy="200" r="30" fill="#4D648D" />
+  <text x="810" y="210" font-family="Arial, sans-serif" font-size="30" fill="white" text-anchor="middle">♛</text>
+  <text x="810" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">1997</text>
+  <text x="810" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <tspan x="810" dy="1.2em">Deep Blue defeats</tspan>
+    <tspan x="810" dy="1.2em">Garry Kasparov in chess</tspan>
+  </text>
+
+  <!-- 2012: AlexNet -->
+  <circle cx="1030" cy="200" r="30" fill="#3D405B" />
+  <path d="M1020 193 h20 l-10 14 z" fill="white" />
+  <text x="1030" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">2012</text>
+  <text x="1030" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <tspan x="1030" dy="1.2em">AlexNet popularizes</tspan>
+    <tspan x="1030" dy="1.2em">deep learning</tspan>
+  </text>
+
+  <!-- Present: Generative AI -->
+  <circle cx="1250" cy="200" r="30" fill="#2C2C3E" />
+  <path d="M1242 193 q8 -12 16 0 q-8 12 -16 0" fill="white" />
+  <path d="M1242 205 q8 -12 16 0 q-8 12 -16 0" fill="white" />
+  <text x="1250" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">PRESENT</text>
+  <text x="1250" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <tspan x="1250" dy="1.2em">Rise of Generative</tspan>
+    <tspan x="1250" dy="1.2em">AI models</tspan>
+  </text>
+
+</svg>
