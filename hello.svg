@@ -1,0 +1,104 @@
+<svg width="600" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient Definitions -->
+    <linearGradient id="gradA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E91E63;" />
+      <stop offset="100%" style="stop-color:#F44336;" />
+    </linearGradient>
+    <linearGradient id="gradB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF9800;" />
+      <stop offset="100%" style="stop-color:#FFC107;" />
+    </linearGradient>
+    <linearGradient id="gradC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#009688;" />
+      <stop offset="100%" style="stop-color:#00BCD4;" />
+    </linearGradient>
+    <linearGradient id="gradD" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3F51B5;" />
+      <stop offset="100%" style="stop-color:#2196F3;" />
+    </linearGradient>
+
+    <!-- Arrowhead Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4A4A6A" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white" />
+
+  <!-- Header -->
+  <text x="100" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">PROCESS TIMELINE</text>
+  <text x="100" y="85" font-family="Arial, sans-serif" font-size="14" fill="#222">
+    <tspan x="100" dy="0">Lorem ipsum dolor sit amet, consecte-</tspan>
+    <tspan x="100" dy="1.4em">tuer adipiscing elit, sed diam nonum-</tspan>
+    <tspan x="100" dy="1.4em">my nibh euismod tincidun.</tspan>
+  </text>
+
+  <!-- Vertical Line -->
+  <line x1="100" y1="160" x2="100" y2="840" stroke="#4A4A6A" stroke-width="1.5" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+
+  <!-- Timeline Item A -->
+  <g>
+    <line x1="100" y1="250" x2="180" y2="250" stroke="#4A4A6A" stroke-width="1" />
+    <circle cx="100" cy="250" r="8" fill="white" stroke="url(#gradA)" stroke-width="3" />
+    <path d="M 180,250 C 210,210 270,210 270,250 C 270,290 210,290 180,250 Z" fill="url(#gradA)" />
+    <circle cx="235" cy="250" r="22" fill="white" />
+    <text x="235" y="258" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">A</text>
+    <text x="310" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">LOREM IPSUM</text>
+    <text x="310" y="250" font-family="Arial, sans-serif" font-size="13" fill="#222">
+      <tspan x="310" dy="0">Lorem ipsum dolor sit amet, consectetuer</tspan>
+      <tspan x="310" dy="1.4em">adipiscing elit, sed diam nonummy nibh</tspan>
+      <tspan x="310" dy="1.4em">euismod tincidunt ut laoreet dolore</tspan>
+      <tspan x="310" dy="1.4em">magna aliquam erat volutpat.</tspan>
+    </text>
+  </g>
+
+  <!-- Timeline Item B -->
+  <g>
+    <line x1="100" y1="400" x2="180" y2="400" stroke="#4A4A6A" stroke-width="1" />
+    <circle cx="100" cy="400" r="8" fill="white" stroke="url(#gradB)" stroke-width="3" />
+    <path d="M 180,400 C 210,360 270,360 270,400 C 270,440 210,440 180,400 Z" fill="url(#gradB)" />
+    <circle cx="235" cy="400" r="22" fill="white" />
+    <text x="235" y="408" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">B</text>
+    <text x="310" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">DOLOR SIT AMET</text>
+    <text x="310" y="400" font-family="Arial, sans-serif" font-size="13" fill="#222">
+      <tspan x="310" dy="0">Lorem ipsum dolor sit amet, consectetuer</tspan>
+      <tspan x="310" dy="1.4em">adipiscing elit, sed diam nonummy nibh</tspan>
+      <tspan x="310" dy="1.4em">euismod tincidunt ut laoreet dolore</tspan>
+      <tspan x="310" dy="1.4em">magna aliquam erat volutpat.</tspan>
+    </text>
+  </g>
+
+  <!-- Timeline Item C -->
+  <g>
+    <line x1="100" y1="550" x2="180" y2="550" stroke="#4A4A6A" stroke-width="1" />
+    <circle cx="100" cy="550" r="8" fill="white" stroke="url(#gradC)" stroke-width="3" />
+    <path d="M 180,550 C 210,510 270,510 270,550 C 270,590 210,590 180,550 Z" fill="url(#gradC)" />
+    <circle cx="235" cy="550" r="22" fill="white" />
+    <text x="235" y="558" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">C</text>
+    <text x="310" y="530" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">LOREM IPSUM</text>
+    <text x="310" y="550" font-family="Arial, sans-serif" font-size="13" fill="#222">
+      <tspan x="310" dy="0">Lorem ipsum dolor sit amet, consectetuer</tspan>
+      <tspan x="310" dy="1.4em">adipiscing elit, sed diam nonummy nibh</tspan>
+      <tspan x="310" dy="1.4em">euismod tincidunt ut laoreet dolore</tspan>
+      <tspan x="310" dy="1.4em">magna aliquam erat volutpat.</tspan>
+    </text>
+  </g>
+
+  <!-- Timeline Item D -->
+  <g>
+    <line x1="100" y1="700" x2="180" y2="700" stroke="#4A4A6A" stroke-width="1" />
+    <circle cx="100" cy="700" r="8" fill="white" stroke="url(#gradD)" stroke-width="3" />
+    <path d="M 180,700 C 210,660 270,660 270,700 C 270,740 210,740 180,700 Z" fill="url(#gradD)" />
+    <circle cx="235" cy="700" r="22" fill="white" />
+    <text x="235" y="708" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">D</text>
+    <text x="310" y="680" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">DOLOR SIT AMET</text>
+    <text x="310" y="700" font-family="Arial, sans-serif" font-size="13" fill="#222">
+      <tspan x="310" dy="0">Lorem ipsum dolor sit amet, consectetuer</tspan>
+      <tspan x="310" dy="1.4em">adipiscing elit, sed diam nonummy nibh</tspan>
+      <tspan x="310" dy="1.4em">euismod tincidunt ut laoreet dolore</tspan>
+      <tspan x="310" dy="1.4em">magna aliquam erat volutpat.</tspan>
+    </text>
+  </g>
+</svg>
